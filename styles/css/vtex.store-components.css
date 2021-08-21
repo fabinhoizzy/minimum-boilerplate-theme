@@ -1,0 +1,32 @@
+
+.searchBarContainer  {
+  width: 500px;
+  
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border-color: #14155a;
+  border: none;
+  border-radius: 0;
+  width: 500px;
+  border-bottom: 2px solid #14155a;
+}
+
+.searchIcon {
+  color: #14155a;
+}
+
+.infoCardContainer {
+  width: 98vw;
+  height: 600px;
+}
+.infoCardImage {
+  width: 90vw;
+  height: 550px;
+
+}
+.infoCardCallActionContainer {
+  color: #14155a;
+}
+
+
+

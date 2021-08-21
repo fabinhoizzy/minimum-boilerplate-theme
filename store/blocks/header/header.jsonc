@@ -1,7 +1,11 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop", 
+      "header-layout.mobile"
+    ]
   },
+
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
@@ -33,6 +37,12 @@
       "minicart.v2"
     ]
   },
+  "search-bar":{
+    "props":{
+
+    }
+  },
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -47,9 +57,8 @@
   "logo": {
     "props": {
       "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "src": "https://logodownload.org/wp-content/uploads/2017/04/electrolux-logo-2.png",
+      "width": "150"
     }
   },
   "header-layout.mobile": {
@@ -76,4 +85,5 @@
   "drawer": {
     "children": []
   }
+
 }

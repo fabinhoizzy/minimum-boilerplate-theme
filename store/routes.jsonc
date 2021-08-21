@@ -1,0 +1,20 @@
+{
+  "store.custom#eletrodomesticos": {
+    "path": "/eletrodomesticos"
+  },
+  "store.custom#eletroportateis": {
+    "path": "/eletroportateis"
+  },
+  "store.custom#garantia": {
+    "path": "/garantia"
+  },
+  "store.custom#pecas": {
+    "path": "/pecas"
+  },
+  "store.custom#servicos": {
+    "path": "/servicos"
+  },
+  "store.custom#ultilidades": {
+    "path": "/ultilidades"
+  }
+}

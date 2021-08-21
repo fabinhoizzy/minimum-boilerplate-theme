@@ -1,0 +1,76 @@
+{
+  "slider-layout#home": {
+    "children": [
+      "info-card#1", 
+      "info-card#1",
+      "info-card#3",
+      "info-card#4",
+      "info-card#5",
+      "info-card#6"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": false
+        },
+        "itemsPerPage" : {
+          "desktop" : 1,
+          "tablet" : 1,
+          "phone" : 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass" : "carousel"
+    }
+  },
+  "info-card#1": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/211209/Wine_Electrolux_HomeDesktop_1920x500.png?v=637647412026170000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+  },
+
+  "info-card#2": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/211065/AF_bannertv_elux_days_1920x500_desktop-5e10.png?v=637640741256600000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/211184/AF_mkt846_electrolux_bannerTv_desktop_AME_br-ajuste.png?v=637644819201400000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+  },
+  "info-card#4": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/209166/bannertv-desk-renove-sua-casa-electrolux-br_2.gif?v=637640730110330000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+  },
+  "info-card#5": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/211065/AF_bannertv_elux_days_1920x500_desktop-5e10.png?v=637640741256600000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+  },
+  "info-card#6": {
+    "props": {
+      "imageUrl": "https://electrolux.vteximg.com.br/arquivos/ids/210931/banner-tv-desk-trial-panelas-press%C3%A3o-electrolux-br_03.jpg?v=637636210437500000",
+      "isFullModeStyle": true,
+      "callToActionText": "Site não oficial",
+      "textPosition": "center"
+    }
+
+  }
+}

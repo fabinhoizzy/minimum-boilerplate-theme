@@ -1,0 +1,189 @@
+{
+  "store.home": { 
+    "blocks": [
+      "slider-layout#home",
+      "tab-layout",
+      "tab-layout#home"
+    ]
+  },
+
+  "tab-layout": {
+    "children": [
+      "tab-list",
+      "tab-content"
+    ]
+  },
+
+  "tab-list":{
+    "children":[
+       "tab-list.item#1",
+       "tab-list.item#2",
+       "tab-list.item#3",
+       "tab-list.item#4",
+       "tab-list.item#5",
+       "tab-list.item#6"
+    ]
+  },
+  "tab-content":{
+    "children":[
+       "tab-content.item#1",
+       "tab-content.item#2",
+       "tab-content.item#3",
+       "tab-content.item#4",
+       "tab-content.item#5",
+       "tab-content.item#6"
+    ]
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "eletrodomesticos",
+      "label": "Eletrodomésticos"
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "eletroportateis",
+      "label": "eletroportáteis"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "ultilidadesdosmeticas",
+      "label": "Ultilidades Dosmeticas"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "pecaseacessorios",
+      "label": "Peças e Acessorios"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "servicoseletrolux",
+      "label": "Serviços Eletrolux"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "garantia",
+      "label": "Garantia"
+    }
+  },
+
+
+  "tab-content.item#1": {
+    "children": [
+      "rich-text#1",
+      "flex-layout.col",
+      "product"
+    ],
+    "props": {
+      "tabId": "eletrodomesticos"
+    }
+  },
+
+  "tab-content.item#2": {
+    "children": [
+      "rich-text#2"
+    ],
+    "props": {
+      "tabId": "eletroportateis"
+    }
+  },
+
+  "tab-content.item#3": {
+    "children": [
+      "rich-text#3"
+    ],
+    "props": {
+      "tabId": "ultilidadesdosmeticas"
+    }
+  },
+
+
+
+  "tab-content.item#4": {
+    "children": [
+      "rich-text#4"
+    ],
+    "props": {
+      "tabId": "pecaseacessorios"
+    }
+  },
+
+
+  "tab-content.item#5": {
+    "children": [
+      "rich-text#5"
+    ],
+    "props": {
+      "tabId": "servicoseletrolux"
+    }
+  },
+
+
+  "tab-content.item#6": {
+    "children": [
+      "rich-text#6"
+    ],
+    "props": {
+      "tabId": "garantia"
+    }
+  },
+
+
+  "rich-text#1": {
+    "props": {
+      "text": "Eletrodomésticos",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#2": {
+    "props": {
+      "text": "Eletroportáteis",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#3": {
+    "props": {
+      "text": "Ultilidades Domésticas",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#4": {
+    "props": {
+      "text": "Peças e Acessorios",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#5": {
+    "props": {
+      "text": "Serviços Eletrolux",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+
+  "rich-text#6": {
+    "props": {
+      "text": "Garantia",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+  
+}
